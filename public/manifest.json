@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Student Buddy",
+  "version": "1.0.0",
+  "description": "Task tracking, reminders, and productivity management for students",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Student Buddy",
+    "default_icon": {
+      "16": "logo192.png",
+      "48": "logo192.png",
+      "128": "logo512.png"
+    }
+  },
+  "permissions": ["storage", "alarms", "notifications"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "logo192.png",
+    "48": "logo192.png",
+    "128": "logo512.png"
+  }
+}
